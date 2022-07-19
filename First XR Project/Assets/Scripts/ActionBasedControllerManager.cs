@@ -116,8 +116,6 @@ public class ActionBasedControllerManager : MonoBehaviour
         get => m_BaseControllerGameObject;
         set => m_BaseControllerGameObject = value;
     }
-    [SerializeField] Animator m_Animator;
-
 
     [SerializeField, FormerlySerializedAs("m_TeleportControllerGO")]
     [Tooltip("The teleport controller GameObject, used for changing default settings on its components during state transitions.")]
@@ -420,9 +418,6 @@ public class ActionBasedControllerManager : MonoBehaviour
         
         if (m_TeleportInteractor is Behaviour teleportInteractorComponent && teleportInteractorComponent != null)
             teleportInteractorComponent.enabled = enable;
-
-        if (m_Animator != null)
-            m_Animator.SetBool("Pointing", enable);
     }
 
     void OnEnterSelectState(StateId previousStateId)

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections.Generic;
 
 public class PressableButton : MonoBehaviour
 {
@@ -8,23 +9,39 @@ public class PressableButton : MonoBehaviour
     public UnityEvent OnPress;
     public UnityEvent OnRelease;
 
-    private GameObject _currentPresser;
+    private List<GameObject> _currentPressers;
 
+    private void Start()
+    {
+        _currentPressers = new List<GameObject>();
+    }
     private void OnTriggerEnter(Collider other)
     {
-        if (_currentPresser != null) return;
-        
-        _currentPresser = other.gameObject;
-        _buttonGO.transform.localPosition -= Vector3.up * _heightOffset;
+        print("Trigger enter");
+
+        if(_currentPressers.Count == 0)
+        {
+            print("Going down");
+            _buttonGO.transform.localPosition -= Vector3.up * _heightOffset;
+        }
+        _currentPressers.Add(other.gameObject);
 
         OnPress?.Invoke();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.gameObject == _currentPresser)
+        print("OnTriggerExit");
+
+        if (_currentPressers.Contains(other.gameObject))
         {
-            _currentPresser = null;
+            print("REmove");
+            _currentPressers.Remove(other.gameObject);
+        }
+
+        if(_currentPressers.Count == 0)
+        {
+            print("Going up");
             _buttonGO.transform.localPosition += Vector3.up * _heightOffset;
             OnRelease?.Invoke();
         }
