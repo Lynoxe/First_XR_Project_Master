@@ -90,9 +90,12 @@ public class CarController : MonoBehaviour
 
     private void Update()
     {
-        float steeringWheelRotation = _steeringWheel.Anchor.localEulerAngles.z - _initialSteeringWheelRotation;
+        if (!_useDesktop)
+        {
+            float steeringWheelRotation = _steeringWheel.Anchor.localEulerAngles.z - _initialSteeringWheelRotation;
 
-        _turnInput = steeringWheelRotation / _steeringWheel.MaxRotationOffset;
+            _turnInput = steeringWheelRotation / _steeringWheel.MaxRotationOffset;
+        }
 
         if (new Vector2(_sphereRigidBody.velocity.x, _sphereRigidBody.velocity.z).sqrMagnitude > _sqrMinimalSpeedToTurn)
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + Vector3.up * _turnInput * _turnStrength * Time.deltaTime);

@@ -17,11 +17,8 @@ public class PressableButton : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        print("Trigger enter");
-
         if(_currentPressers.Count == 0)
         {
-            print("Going down");
             _buttonGO.transform.localPosition -= Vector3.up * _heightOffset;
         }
         _currentPressers.Add(other.gameObject);
@@ -31,17 +28,13 @@ public class PressableButton : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        print("OnTriggerExit");
-
         if (_currentPressers.Contains(other.gameObject))
         {
-            print("REmove");
             _currentPressers.Remove(other.gameObject);
         }
 
         if(_currentPressers.Count == 0)
         {
-            print("Going up");
             _buttonGO.transform.localPosition += Vector3.up * _heightOffset;
             OnRelease?.Invoke();
         }

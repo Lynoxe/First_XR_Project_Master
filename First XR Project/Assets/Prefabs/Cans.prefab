@@ -129,6 +129,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -220,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Can (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -313,6 +323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -404,6 +419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Can (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -497,6 +517,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -588,6 +613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Can (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -681,6 +711,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -772,6 +807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Can (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -865,6 +905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -956,6 +1001,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Can (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1049,6 +1099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -1140,6 +1195,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Can (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1233,6 +1293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -1325,6 +1390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Can (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e856bc642b748ef9b93f9c76f635b0, type: 3}
@@ -1416,6 +1486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Can (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411042870485953748, guid: 26e856bc642b748ef9b93f9c76f635b0,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
